@@ -5,7 +5,7 @@ def main():
     """
     IMPORTANT: Change this file path to change training data 
     """
-    file = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\Training_Full.csv')
+    file = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\Training_Part.csv')
     """
     IMPORTANT: Change this variable too change target attribute 
     """
