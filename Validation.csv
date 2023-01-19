@@ -1,0 +1,11 @@
+Type,Sales_Organization,Document_Type,Business_Unit,Service_Type,Reseller
+SOP,B,Order,BU_C,0,1
+SOP,A,Order,BU_A,0,1
+SOP,B,Order,BU_B,0,1
+SOP,B,Order,BU_A,0,1
+SOP,B,Order,BU_A,0,1
+SOP,A,Order,BU_C,0,0
+SOP,B,Order,BU_B,1,0
+STP,A,Order,BU_A,0,0
+SOP,A,Order,BU_A,0,0
+SOP,B,Order,BU_A,1,0

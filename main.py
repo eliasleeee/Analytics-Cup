@@ -5,11 +5,11 @@ def main():
     """
     IMPORTANT: Change this file path to change training data 
     """
-    file = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\SoybeanTraining.csv')
+    file = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\Training_Full.csv')
     """
     IMPORTANT: Change this variable too change target attribute 
     """
-    target = "class"
+    target = "Reseller"
     data = [[]]
     for line in file:
         line = line.strip("\r\n")
@@ -29,7 +29,7 @@ def main():
     """
     IMPORTANT: Change this file path to change testing data 
     """
-    file.write("f = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\Soybean.csv')\n")
+    file.write("f = open('E:\TUM\Lecture\WS2022\Lecture\Business Analytics and Machine Learning\CUP\DT\DecisionTree\src\Validation.csv')\n")
     #gather data
     file.write("for line in f:\n\tline = line.strip(\"\\r\\n\")\n\tdata.append(line.split(','))\n")
     file.write("data.remove([])\n")
